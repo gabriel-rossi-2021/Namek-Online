@@ -32,8 +32,6 @@ form button.btn{
     bottom: 2%;
 }
 
-
-
 #search-button-after{
     width: 100%;
     color: white;
@@ -46,8 +44,8 @@ form button.btn{
 }
 
 .navbar-toggler{
-    margin: 0 auto;
-  	border: 2px solid #499b4a;
+     margin:0 auto;
+     border: 2px solid #499b4a;
 }
 
 .navbar-toggler:focus{
@@ -147,7 +145,13 @@ form button.btn{
     border-radius: 5px;
     font-size: 16px;
     border: 2px solid black;
-  	display: block;
+    display: block;
+}
+
+#btn-search{
+    margin-top: 2.5%;
+    background: #499b4a;
+    color: white;
 }
 
 @media (max-width: 990px) {
@@ -161,7 +165,7 @@ form button.btn{
         text-align:left;
         background-clip:padding-box;
     }
-  	.drop-item-flex{
+    .drop-item-flex{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -175,12 +179,13 @@ form button.btn{
     }
 }
 @media (max-width: 768px) {
-  	#navbar-id{
-		margin-top:2%;
-  	}
+    #navbar-id{
+        margin-top: 2%;
+    }
     .dropdown-menu-produit{
         width: auto;
     }
+
     .dropdown-menu-li{
         width: 150px;
         height: 200px;
@@ -197,5 +202,9 @@ form button.btn{
 
     #icon-panier-header{
         margin-right: 20px;
+    }
+
+    #btn-search{
+        margin-top: 7%;
     }
 }
